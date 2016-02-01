@@ -2,7 +2,7 @@
 
 The Department of Education collects college data and releases [College Scorecards](https://catalog.data.gov/dataset/college-scorecard) in order to help students find a college that is a good fit.
 
-Use the `2013_college_scorecards.csv` file (which is a modified version of the original CSV file) to write a program that calculates and outputs specific data. The headers of the CSV file are somewhat obscure. Use the `CollegeScorecardDataDictionary-09-12-2015.pdf` file to interpret the headers. 
+Use the `2013_college_scorecards.csv` file (which is a modified version of the original CSV file) to write a program that calculates and outputs specific data. The headers of the CSV file are somewhat obscure. Use the `CollegeScorecardDataDictionary-09-12-2015.pdf` file to find the headers that are relevant to each piece of functionality. 
 
 ### 1: Filter By State
 
