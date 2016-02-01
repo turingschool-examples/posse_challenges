@@ -34,7 +34,7 @@ For this challenge, you'll use the `AVGFACSAL` header.
 $ ruby college_scorecard.rb top_average_faculty_salary 10
 ```
 
-Should return the top 10 schools by average faculty salary. (The argument (10) is dynamic. If I were to enter 20, I should receive the top 20 schools.)
+Should return the top 10 schools by average faculty salary. (The argument `10` is dynamic. If I were to enter 20, I should receive the top 20 schools.)
 
 ```
 The University of Texas MD Anderson Cancer Center
