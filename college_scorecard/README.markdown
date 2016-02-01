@@ -2,9 +2,11 @@
 
 The Department of Education collects college data and releases [College Scorecards](https://catalog.data.gov/dataset/college-scorecard) in order to help students find a college that is a good fit.
 
-Use the `2013_college_scorecards.csv` file (which is a modified version of the original CSV file) to write a program that calculates and outputs specific data. The headers of the CSV file are somewhat obscure. Use the `CollegeScorecardDataDictionary-09-12-2015.pdf` file to find the headers that are relevant to each piece of functionality. 
+Use the `2013_college_scorecards.csv` file (which is a modified version of the original CSV file) to write a program that calculates and outputs specific data.
 
 ### 1: Filter By State
+
+For this challenge, you'll use the `STABBR` header. 
 
 ```
 $ ruby college_scorecard.rb by_state AK
@@ -26,6 +28,8 @@ Alaska Career College
 
 ### 2: Filter By Top Average Faculty Salary
 
+For this challenge, you'll use the `AVGFACSAL` header. 
+
 ```
 $ ruby college_scorecard.rb top_average_faculty_salary 10
 ```
@@ -46,6 +50,8 @@ Massachusetts Institute of Technology
 ```
 
 ### 3: Filter By Median Debt Floor and Ceiling
+
+For this challenge, you'll use the `GRAD_DEBT_MDN` header. 
 
 ```
 $ ruby college_scorecard.rb median_debt_between 1500 2300
