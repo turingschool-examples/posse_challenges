@@ -6,7 +6,7 @@ Use the `2013_college_scorecards.csv` file (which is a modified version of the o
 
 ### 1: Filter By State
 
-```ruby
+```
 $ ruby college_scorecard.rb by_state AK
 ```
 
@@ -26,7 +26,7 @@ Alaska Career College
 
 ### 2: Filter By Top Average Faculty Salary
 
-```ruby
+```
 $ ruby college_scorecard.rb top_average_faculty_salary 10
 ```
 
@@ -47,7 +47,7 @@ Massachusetts Institute of Technology
 
 ### 3: Filter By Median Debt Floor and Ceiling
 
-```ruby
+```
 $ ruby college_scorecard.rb median_debt_between 1500 2300
 ```
 
