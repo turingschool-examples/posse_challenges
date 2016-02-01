@@ -4,6 +4,8 @@ The Department of Education collects college data and releases [College Scorecar
 
 Use the `2013_college_scorecards.csv` file (which is a modified version of the original CSV file) to write a program that calculates and outputs specific data. You may find it helpful to open this file in Excel or Numbers in order to see the data in a tabular format before manipulating it programmatically. 
 
+**TDD is not required for this challenge**
+
 ### 1: Filter By State
 
 For this challenge, you'll use the `STABBR` header. 
