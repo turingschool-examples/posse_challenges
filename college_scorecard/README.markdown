@@ -62,17 +62,20 @@ $ ruby college_scorecard.rb median_debt_between 1500 2300
 Should return a list of colleges whose median debt is between (exclusive) the two given numbers. Next to each college should be the corresponding median debt:
 
 ```
-East Arkansas Community College ($2250)
+Ponce Paramedical College Inc ($2260)
+Alliant International University ($2000)
+Alliant International University-Fresno ($2000)
+Alliant International University-Los Angeles ($2000)
+Alliant International University-San Francisco ($2000)
+Alliant International University-Irvine ($2000)
+Alliant International University-Sacramento ($2000)
 Philadelphia College of Osteopathic Medicine ($2000)
 West Virginia School of Osteopathic Medicine ($2000)
-Coachella Valley Beauty College ($1826)
-South Louisiana Community College ($1750)
-Acadiana Technical College-Lafayette Campus ($1750)
+Coachella Valley Beauty College ($1914)
 Automeca Technical College-Aguadilla ($1750)
 Automeca Technical College-Bayamon ($1750)
 Automeca Technical College-Caguas ($1750)
 Automeca Technical College-Ponce ($1750)
-Ponce Paramedical College Inc ($1640.5)
 ```
 
 ### 4: Rewrite in a second language
