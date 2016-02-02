@@ -78,3 +78,10 @@ Ponce Paramedical College Inc ($1640.5)
 ### 4: Rewrite in a second language
 
 Choose a second language (Python, R, etc.) and implement *at least one* of the above pieces of functionality. 
+
+Getting started with R:
+
+* Download [RStudio](https://www.rstudio.com/products/rstudio/download/)
+* Open RStudio. In the menu "Session", hover over "Set Working Directory" and click "Choose Directory". Find where you've saved the `2013_college_scorecards.csv` file, and choose that directory.
+* To read a csv, use `read.csv('2013_college_scorecards.csv')`. 
+* Do some Googling/StackOverflowing, and you're on your way :) 
