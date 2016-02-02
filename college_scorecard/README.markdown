@@ -26,6 +26,8 @@ AVTEC-Alaska's Institute of Technology
 Charter College-Anchorage
 Prince William Sound Community College
 Alaska Career College
+Ilisagvik College
+Alaska Christian College
 ```
 
 ### 2: Filter By Top Average Faculty Salary
