@@ -8,7 +8,7 @@ describe('Whale()', () => {
     expect(typeof whale).toEqual('object');
   });
 
-  it('creates a whale with a name, location and breed', () => {
+  xit('creates a whale with a name, location and breed', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -19,7 +19,7 @@ describe('Whale()', () => {
     expect(whale.breed).toEqual(options.breed);
   });
 
-  it('introduces itself', () => {
+  xit('introduces itself', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -29,7 +29,7 @@ describe('Whale()', () => {
     expect(whale.introduction).toEqual(intro);
   });
 
-  it('starts out with no children', () => {
+  xit('starts out with no children', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -38,7 +38,7 @@ describe('Whale()', () => {
     expect(whale.children.length).toEqual(0);
   });
 
-  it('gets a child when it meets another whale', () => {
+  xit('gets a child when it meets another whale', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -49,12 +49,12 @@ describe('Whale()', () => {
     expect(whale.children.length).toEqual(1);
   });
 
-  it('a child has a different name but same location and breed as its parent', () => {
+  xit('a child has a different name but same location and breed as its parent', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
     const whale = new Whale(options);
-    const babyWhaleOptions = { name: 'Sally', location: options.location, breed: options.breed };
+    const babyWhaleOptions = { name: 'Sally' };
 
     whale.meetsWhale(babyWhaleOptions);
 
@@ -65,7 +65,7 @@ describe('Whale()', () => {
     expect(whale.children[0].breed).toEqual(options.breed);
   });
 
-  it('can update it\'s location', () => {
+  xit('can update it\'s location', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -78,7 +78,7 @@ describe('Whale()', () => {
     expect(whale.location).toEqual(newLocation);
   });
 
-  it('can move to other places', () => {
+  xit('can move to other places', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -89,7 +89,7 @@ describe('Whale()', () => {
     expect(whale.location).toEqual(newLocation);
   });
 
-  it('can swim without getting tired', () => {
+  xit('can swim without getting tired', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };
@@ -99,7 +99,7 @@ describe('Whale()', () => {
     expect(whale.isTired).toEqual(false);
   });
 
-  it('gets tired after swimming for a while', () => {
+  xit('gets tired after swimming for a while', () => {
     const options = { name: 'Willy',
                       location: 'The Pacific',
                       breed: 'California Grey Whale' };

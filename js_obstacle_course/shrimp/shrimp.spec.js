@@ -9,7 +9,7 @@ describe('Shrimp()', () => {
     expect(typeof shrimp).toEqual('object');
   });
 
-  it('creates a shrimp with a withd and a height', () => {
+  xit('creates a shrimp with a width and a height', () => {
     const options = { width: 5, height: 2 }
     const shrimp = new Shrimp(options);
 
@@ -17,7 +17,7 @@ describe('Shrimp()', () => {
     expect(shrimp.height).toEqual(shrimp.height);
   });
 
-  it('sets the max speed of the shrimp using its width and height', () => {
+  xit('sets the max speed of the shrimp using its width and height', () => {
     // Note: the maxSpeed is calculated by multiplying the width and the height
     // and raising that value to the second power.
     const options = { width: 5, height: 2 }
@@ -26,14 +26,14 @@ describe('Shrimp()', () => {
     expect(shrimp.maxSpeed).toEqual(100);
   });
 
-  it('sets the max speed of a large shrimp', () => {
+  xit('sets the max speed of a large shrimp', () => {
     const options = { width: 10, height: 5 }
     const shrimp = new Shrimp(options);
 
     expect(shrimp.maxSpeed).toEqual(2500);
   });
 
-  it('can eat', () => {
+  xit('can eat', () => {
     const options = { width: 5, height: 2 }
     const shrimp = new Shrimp(options);
 
@@ -41,7 +41,7 @@ describe('Shrimp()', () => {
     expect(shrimp.eat('plankton')).toEqual('yum, plankton!');
   });
 
-  it('can only eat plankton or algae', () => {
+  xit('can only eat plankton or algae', () => {
     const options = { width: 5, height: 2 };
     const shrimp = new Shrimp(options);
 
@@ -50,7 +50,7 @@ describe('Shrimp()', () => {
     expect(shrimp.eat('cheese fritters')).toEqual('yuk, can\'t eat that!');
   });
 
-  it('becomes full after eating three times', () => {
+  xit('becomes full after eating three times', () => {
     const options = { width: 5, height: 2 };
     const shrimp = new Shrimp(options);
     const foods = ['algae', 'algae', 'plankton'];
@@ -62,7 +62,7 @@ describe('Shrimp()', () => {
     expect(shrimp.isFull).toEqual(true);
   });
 
-  it('can\'t eat when it\'s full', () => {
+  xit('can\'t eat when it\'s full', () => {
     const options = { width: 5, height: 2 };
     const shrimp = new Shrimp(options);
     const foods = ['algae', 'algae', 'plankton'];
@@ -75,7 +75,7 @@ describe('Shrimp()', () => {
     expect(shrimp.eat('algae')).toEqual('I love algae but am too full too eat!');
   });
 
-  it('is not full if it swims', () => {
+  xit('is not full if it swims', () => {
     const options = { width: 5, height: 2 };
     const shrimp = new Shrimp(options);
     const foods = ['algae', 'algae', 'plankton'];
