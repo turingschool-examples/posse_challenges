@@ -1,23 +1,23 @@
 # JavaScript Obstacle Course
 
-Welcome to the JavaScript Obstacle Course. In this directory, you'll also find a test suite. Your job is to make it pass. Some of the challenges will seem pointless and redundant - but that's the point! These challenges focuses on working with JavaScript core types and how to manipulate those core types.
+Welcome to the JavaScript Obstacle Course. Here you'll find some sub directories containing challenges. The three first challenges contain a spec file and a JavaScript file with some code already there for you to get you started using ES6 classes. If there's another approach you prefer, please feel free to delete the code and start over.
 
 ## Up and running
 
-First we need to setup our project:
+`cd` into one of the sub directories and run the tests with the following command:
 
 ```sh
-$ mkdir js_obstacle_course && cd js_obstacle_course
-$ touch obstacleCourse.spec.js
-$ touch obstacleCourse.js
+$ jasmine-node [name].spec.js
 ```
 
-Run the tests with the following command:
-
-```sh
-$ jasmine-node obstacleCourse.spec.js
-```
+Unskip one test at a time and don't unskip the next one until you have the previous one passed.
 
 Naming our test file with the extension `spec.js` allows us to run the tests with `jasmine-node`. If you don't have the `jasmine-node` npm package installed, install it with `npm install -g jasmine-node`. The `-g` will install it globally on your system.
 
-As mentioned above, in this directory you'll find a test suite. Copy the contents over to your spec file. Now, unskip one test at a time and make it pass.
+### Index of challenges
+
+* Whale
+* Shrimp
+* Dolphin
+* Fisherman
+* Mermaid
