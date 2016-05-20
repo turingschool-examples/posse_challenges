@@ -12,7 +12,7 @@ A `PersonDatabase` should be initialized with an array of `Person` objects.
 Example:
 
 ```ruby
-person_1 = Person.new("Alice", "Smith", "alice@example.com", "Alaska")
+person_1 = Person.new("Alice", "Smith", "alice@example.com", "Florida")
 person_2 = Person.new("Bob", "Gomez", "bob@example.com", "Idaho")
 person_3 = Person.new("Mary", "Johnson", "mary@example.com", "Florida")
 people = [person_1, person_2, person_3]
